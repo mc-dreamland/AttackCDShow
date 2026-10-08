@@ -1,0 +1,56 @@
+{
+  "namespace": "attack_cooldown",
+  "main@common.base_screen": {
+    "is_showing_menu": false,
+    "should_steal_mouse": false,
+    "absorbs_input": false,
+    "send_telemetry": false,
+    "$screen_content": "attack_cooldown.screen_content"
+  },
+  "screen_content": {
+    "type": "panel",
+    "size": ["100%", "100%"],
+    "controls": [
+      {
+        "cooldown": {
+          "type": "panel",
+          "size": ["100%", "100%"],
+          "layer": 1,
+          "controls": [
+            {
+              "bar": {
+                "type": "panel",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [0, 12],
+                "size": [16, 4],
+                "visible": false,
+                "controls": [
+                  {
+                    "empty_progress_bar": {
+                      "type": "image",
+                      "size": [16, 4],
+                      "texture": "textures/ui/attack_cooldown/sweep_empty"
+                    }
+                  },
+                  {
+                    "filled_progress_bar": {
+                      "type": "image",
+                      "size": [16, 4],
+                      "color": [0.65, 0.65, 0.65],
+                      "layer": 2,
+                      "clip_direction": "left",
+                      "clip_pixelperfect": false,
+                      "clip_ratio": 1.0,
+                      "texture": "textures/ui/attack_cooldown/sweep_full"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

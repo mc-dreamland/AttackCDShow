@@ -1,0 +1,30 @@
+{
+    "header": {
+        "uuid": "9a53e8d2-5ba9-4d2e-a451-26fbf2a8a0f3", 
+        "version": [
+            0, 
+            0, 
+            1
+        ], 
+        "description": "AttackCDShow", 
+        "min_engine_version": [
+            1, 
+            18, 
+            0
+        ], 
+        "name": "AttackCDShow"
+    }, 
+    "modules": [
+        {
+            "version": [
+                0, 
+                0, 
+                1
+            ], 
+            "type": "data", 
+            "description": "AttackCDShow", 
+            "uuid": "ec1273f9-d318-4140-a0b3-86ec82aa572f"
+        }
+    ], 
+    "format_version": 1
+}

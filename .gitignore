@@ -1,0 +1,8 @@
+venv/
+test/
+.idea/
+*.pyc
+path.txt
+world_icon.jpeg
+Sample*.py
+TestModule.py
